@@ -106,6 +106,8 @@ Assets/
 
 ### Step 5 — Configure Sprites
 
+https://hackernoon.com/creating-a-2d-platformer-in-unity-the-beginning 
+
 For every character/enemy sprite sheet:
 1. Select the sprite in Project window
 2. In Inspector:
@@ -115,6 +117,7 @@ For every character/enemy sprite sheet:
    - **Filter Mode**: Point (No Filter) — keeps pixel art crisp
 3. Click **Apply**
 4. Click **Sprite Editor** → **Slice → Automatic** → **Apply**
+5. 
 
 ---
 
