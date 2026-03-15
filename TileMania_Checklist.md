@@ -18,12 +18,12 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Created Unity 6 project with **2D URP** template |
-| ☐ | ☐ | Installed **Cinemachine** package |
-| ☐ | ☐ | Installed **2D Tilemap Extras** (for Rule Tiles) |
-| ☐ | ☐ | Created folder structure: Art/, Scripts/, Prefabs/, Audio/, Scenes/ |
-| ☐ | ☐ | Imported or created placeholder sprites |
-| ☐ | ☐ | Configured sprites: Filter Mode = Point, PPU = 16 |
+| ✅ | ☐ | Created Unity 6 project with **2D URP** template |
+| ✅ | ☐ | Installed **Cinemachine** package |
+| ✅ | ☐ | Installed **2D Tilemap Extras** (for Rule Tiles) |
+| ✅ | ☐ | Created folder structure: Art/, Scripts/, Prefabs/, Audio/, Scenes/ |
+| ✅ | ☐ | Imported or created placeholder sprites |
+| ✅ | ☐ | Configured sprites: Filter Mode = Point, PPU = 16 |
 
 **Section Notes:** _______________________________________________
 
@@ -33,14 +33,14 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Created `Grid` with at least 3 Tilemap children (Ground, Hazards, Background) |
-| ☐ | ☐ | Created a **Rule Tile** for the ground |
-| ☐ | ☐ | Added at least 5 rules to the Rule Tile (edges, corners, center) |
-| ☐ | ☐ | Painted a level with platforms, gaps, and elevation changes |
-| ☐ | ☐ | Added **Tilemap Collider 2D** to Ground |
-| ☐ | ☐ | Added **Composite Collider 2D** and enabled "Used By Composite" |
-| ☐ | ☐ | Hazard Tilemap has collider with **Is Trigger: true** |
-| ☐ | ☐ | Background Tilemap has Order in Layer = -1 |
+| ✅ | ☐ | Created `Grid` with at least 3 Tilemap children (Ground, Hazards, Background) |
+| ✅ | ☐ | Created a **Rule Tile** for the ground |
+| ✅ | ☐ | Added at least 5 rules to the Rule Tile (edges, corners, center) |
+| ✅ | ☐ | Painted a level with platforms, gaps, and elevation changes |
+| ✅ | ☐ | Added **Tilemap Collider 2D** to Ground |
+| ✅ | ☐ | Added **Composite Collider 2D** and enabled "Used By Composite" |
+| ✅ | ☐ | Hazard Tilemap has collider with **Is Trigger: true** |
+| ✅ | ☐ | Background Tilemap has Order in Layer = -1 |
 
 **Section Notes:** _______________________________________________
 
@@ -50,8 +50,8 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Player has: SpriteRenderer, Rigidbody2D, CapsuleCollider2D, Animator |
-| ☐ | ☐ | Rigidbody2D: Collision Detection = Continuous, Freeze Rotation Z = true |
+| ✅ | ☐ | Player has: SpriteRenderer, Rigidbody2D, CapsuleCollider2D, Animator |
+| ✅ | ☐ | Rigidbody2D: Collision Detection = Continuous, Freeze Rotation Z = true |
 | ☐ | ☐ | `PlayerMovement.cs` attached and compiles without errors |
 | ☐ | ☐ | `GroundCheck` child object created at bottom of player |
 | ☐ | ☐ | Player moves left/right with A/D or arrow keys |
