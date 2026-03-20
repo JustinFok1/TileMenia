@@ -153,11 +153,11 @@
 | ✅ | ☐ | `PlayerHealth.cs` tracks current / max health |
 | ✅ | ☐ | UI hearts update when player takes damage |
 | ✅ | ☐ | Invincibility frames work after taking damage (flashing effect) |
-| ☐ | ☐ | Player death triggers game over flow |
-| ☐ | ☐ | `GameSession.cs` singleton persists across scenes |
-| ☐ | ☐ | Lives system: death decrements lives, reloads scene |
-| ☐ | ☐ | Out of lives → loads Game Over scene |
-| ☐ | ☐ | Hazard tiles damage/kill player on touch |
+| ✅ | ☐ | Player death triggers game over flow |
+| ✅ | ☐ | `GameSession.cs` singleton persists across scenes |
+| ✅ | ☐ | Lives system: death decrements lives, reloads scene |
+| ✅ | ☐ | Out of lives → loads Game Over scene |
+| ✅ | ☐ | Hazard tiles damage/kill player on touch |
 
 **Section Notes:** _______________________________________________
 
@@ -167,11 +167,11 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Build Settings has all scenes in correct order |
-| ☐ | ☐ | Main Menu scene with Start button works |
-| ☐ | ☐ | Game Over scene exists and loads correctly |
-| ☐ | ☐ | Level Exit triggers next level load |
-| ☐ | ☐ | Win scene or win condition implemented |
+| ✅ | ☐ | Build Settings has all scenes in correct order |
+| ✅ | ☐ | Main Menu scene with Start button works |
+| ✅ | ☐ | Game Over scene exists and loads correctly |
+| ✅ | ☐ | Level Exit triggers next level load |
+| ✅ | ☐ | Win scene or win condition implemented |
 
 **Section Notes:** _______________________________________________
 
