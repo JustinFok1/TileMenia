@@ -113,15 +113,15 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Enemy prefab created with Rigidbody2D, CapsuleCollider2D, Animator |
-| ☐ | ☐ | Enemy assigned to Enemy layer |
-| ☐ | ☐ | `EnemyPatrol.cs` attached, enemy moves left and right |
-| ☐ | ☐ | Enemy turns at waypoint boundaries |
-| ☐ | ☐ | Enemy turns at ledges (no ground detected) |
-| ☐ | ☐ | Enemy sprite flips direction correctly |
-| ☐ | ☐ | `EnemyHurt.cs` — touching enemy damages player |
-| ☐ | ☐ | Enemy `Die()` plays animation and removes GameObject |
-| ☐ | ☐ | At least **2 enemies** placed in the level |
+| ✅ | ☐ | Enemy prefab created with Rigidbody2D, CapsuleCollider2D, Animator |
+| ✅ | ☐ | Enemy assigned to Enemy layer |
+| ✅ | ☐ | `EnemyPatrol.cs` attached, enemy moves left and right |
+| ✅ | ☐ | Enemy turns at waypoint boundaries |
+| ✅| ☐ | Enemy turns at ledges (no ground detected) |
+| ✅ | ☐ | Enemy sprite flips direction correctly |
+| ✅| ☐ | `EnemyHurt.cs` — touching enemy damages player |
+| ✅ | ☐ | Enemy `Die()` plays animation and removes GameObject |
+| ✅ | ☐ | At least **2 enemies** placed in the level |
 
 **Section Notes:** _______________________________________________
 
@@ -131,16 +131,16 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Arrow prefab created with Rigidbody2D (gravity 0), BoxCollider2D (trigger) |
-| ☐ | ☐ | Arrow assigned to PlayerProjectile layer |
-| ☐ | ☐ | `Arrow.cs` moves in correct direction |
-| ☐ | ☐ | Arrow destroys on hitting an enemy |
-| ☐ | ☐ | Arrow destroys on hitting ground |
-| ☐ | ☐ | Arrow has max lifetime (auto-destroys after 3s) |
-| ☐ | ☐ | `PlayerShooter.cs` fires on left-click (Fire1) |
-| ☐ | ☐ | Fire rate limit prevents spam |
-| ☐ | ☐ | Arrows fire in the direction the player faces |
-| ☐ | ☐ | `FirePoint` child object positioned correctly |
+| ✅ | ☐ | Arrow prefab created with Rigidbody2D (gravity 0), BoxCollider2D (trigger) |
+| ✅ | ☐ | Arrow assigned to PlayerProjectile layer |
+| ✅ | ☐ | `Arrow.cs` moves in correct direction |
+| ✅ | ☐ | Arrow destroys on hitting an enemy |
+| ✅ | ☐ | Arrow destroys on hitting ground |
+| ✅ | ☐ | Arrow has max lifetime (auto-destroys after 3s) |
+| ✅ | ☐ | `PlayerShooter.cs` fires on left-click (Fire1) |
+| ✅ | ☐ | Fire rate limit prevents spam |
+| ✅ | ☐ | Arrows fire in the direction the player faces |
+|✅ | ☐ | `FirePoint` child object positioned correctly |
 
 **Section Notes:** _______________________________________________
 
@@ -152,7 +152,7 @@
 |:---:|:---:|---|
 | ✅ | ☐ | `PlayerHealth.cs` tracks current / max health |
 | ✅ | ☐ | UI hearts update when player takes damage |
-| ✅☐ | ☐ | Invincibility frames work after taking damage (flashing effect) |
+| ✅ | ☐ | Invincibility frames work after taking damage (flashing effect) |
 | ☐ | ☐ | Player death triggers game over flow |
 | ☐ | ☐ | `GameSession.cs` singleton persists across scenes |
 | ☐ | ☐ | Lives system: death decrements lives, reloads scene |
