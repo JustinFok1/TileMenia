@@ -196,22 +196,22 @@
 ### Technical Quality
 | ✅ | Standard |
 |:---:|---|
-| ☐ | No null reference errors in Console during normal play |
-| ☐ | All scripts organized in correct subfolders |
-| ☐ | All tweakable values use `[SerializeField]` — no magic numbers |
-| ☐ | Enemies are **prefabs** (not unique scene objects) |
-| ☐ | Arrow is a **prefab** |
-| ☐ | GameObjects are named clearly in Hierarchy |
-| ☐ | Unused GameObjects/scripts removed |
+| ✅ | No null reference errors in Console during normal play |
+| ✅ | All scripts organized in correct subfolders |
+| ✅ | All tweakable values use `[SerializeField]` — no magic numbers |
+| ✅ | Enemies are **prefabs** (not unique scene objects) |
+| ✅ | Arrow is a **prefab** |
+| ✅ | GameObjects are named clearly in Hierarchy |
+| ✅ | Unused GameObjects/scripts removed |
 
 ### Design Quality
 | ✅ | Standard |
 |:---:|---|
-| ☐ | Level has a clear start and end |
-| ☐ | Level has varied terrain (high platforms, low areas, gaps) |
-| ☐ | Difficulty ramps up through the level |
-| ☐ | Player can distinguish hazards from safe ground visually |
-| ☐ | Game is playable start to finish without bugs |
+| ✅ | Level has a clear start and end |
+| ✅ | Level has varied terrain (high platforms, low areas, gaps) |
+| ✅ | Difficulty ramps up through the level |
+| ✅ | Player can distinguish hazards from safe ground visually |
+| ✅ | Game is playable start to finish without bugs |
 
 ---
 
