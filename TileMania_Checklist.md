@@ -85,11 +85,11 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Cinemachine Virtual Camera added to scene |
-| ☐ | ☐ | Camera follows player smoothly |
-| ☐ | ☐ | Camera confined to level bounds (CinemachineConfiner2D) |
-| ☐ | ☐ | Camera shake implemented in `CameraShake.cs` |
-| ☐ | ☐ | Camera shakes when player takes damage |
+| ✅ | ☐ | Cinemachine Virtual Camera added to scene |
+| ✅ | ☐ | Camera follows player smoothly |
+| ✅| ☐ | Camera confined to level bounds (CinemachineConfiner2D) |
+| ✅| ☐ | Camera shake implemented in `CameraShake.cs` |
+| ✅ | ☐ | Camera shakes when player takes damage |
 
 **Section Notes:** _______________________________________________
 
@@ -99,11 +99,11 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Created layers: Ground, Player, Enemy, Hazard, PlayerProjectile, EnemyProjectile |
-| ☐ | ☐ | Ground Tilemap assigned to Ground layer |
-| ☐ | ☐ | Player assigned to Player layer |
-| ☐ | ☐ | Layer Collision Matrix configured (PlayerProjectile ✗ Player, Enemy ✗ Enemy) |
-| ☐ | ☐ | PlayerMovement Ground Check uses correct layer mask |
+| ✅ | ☐ | Created layers: Ground, Player, Enemy, Hazard, PlayerProjectile, EnemyProjectile |
+| ✅ | ☐ | Ground Tilemap assigned to Ground layer |
+| ✅ | ☐ | Player assigned to Player layer |
+| ✅ | ☐ | Layer Collision Matrix configured (PlayerProjectile ✗ Player, Enemy ✗ Enemy) |
+| ✅ | ☐ | PlayerMovement Ground Check uses correct layer mask |
 
 **Section Notes:** _______________________________________________
 
@@ -150,9 +150,9 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | `PlayerHealth.cs` tracks current / max health |
-| ☐ | ☐ | UI hearts update when player takes damage |
-| ☐ | ☐ | Invincibility frames work after taking damage (flashing effect) |
+| ✅ | ☐ | `PlayerHealth.cs` tracks current / max health |
+| ✅ | ☐ | UI hearts update when player takes damage |
+| ✅☐ | ☐ | Invincibility frames work after taking damage (flashing effect) |
 | ☐ | ☐ | Player death triggers game over flow |
 | ☐ | ☐ | `GameSession.cs` singleton persists across scenes |
 | ☐ | ☐ | Lives system: death decrements lives, reloads scene |
