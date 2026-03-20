@@ -52,12 +52,12 @@
 |:---:|:---:|---|
 | ✅ | ☐ | Player has: SpriteRenderer, Rigidbody2D, CapsuleCollider2D, Animator |
 | ✅ | ☐ | Rigidbody2D: Collision Detection = Continuous, Freeze Rotation Z = true |
-| ☐ | ☐ | `PlayerMovement.cs` attached and compiles without errors |
-| ☐ | ☐ | `GroundCheck` child object created at bottom of player |
-| ☐ | ☐ | Player moves left/right with A/D or arrow keys |
-| ☐ | ☐ | Player jumps with Space and only when grounded |
-| ☐ | ☐ | Sprite flips direction when moving |
-| ☐ | ☐ | Better jump physics applied (fall feels snappy, tap = short jump) |
+| ✅ | ☐ | `PlayerMovement.cs` attached and compiles without errors |
+| ✅ | ☐ | `GroundCheck` child object created at bottom of player |
+| ✅ | ☐ | Player moves left/right with A/D or arrow keys |
+| ✅ | ☐ | Player jumps with Space and only when grounded |
+| ✅ | ☐ | Sprite flips direction when moving |
+| ✅ | ☐ | Better jump physics applied (fall feels snappy, tap = short jump) |
 
 **Section Notes:** _______________________________________________
 
@@ -67,15 +67,15 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | `Player_Idle` animation clip created |
-| ☐ | ☐ | `Player_Run` animation clip created |
-| ☐ | ☐ | `Player_Jump` animation clip created |
-| ☐ | ☐ | `Player_Fall` animation clip created |
-| ☐ | ☐ | `Player_Death` animation clip created |
-| ☐ | ☐ | Animator parameters set: `isRunning`, `isGrounded`, `yVelocity`, `die` |
-| ☐ | ☐ | All transitions wired correctly (no floating states) |
-| ☐ | ☐ | "Has Exit Time" unchecked on all movement transitions |
-| ☐ | ☐ | Animations play correctly in Play Mode |
+| ✅ | ☐ | `Player_Idle` animation clip created |
+| ✅ | ☐ | `Player_Run` animation clip created |
+| ✅ | ☐ | `Player_Jump` animation clip created |
+| ✅ | ☐ | `Player_Fall` animation clip created |
+| ✅ | ☐ | `Player_Death` animation clip created |
+| ✅ | ☐ | Animator parameters set: `isRunning`, `isGrounded`, `yVelocity`, `die` |
+| ✅ | ☐ | All transitions wired correctly (no floating states) |
+| ✅ | ☐ | "Has Exit Time" unchecked on all movement transitions |
+| ✅ | ☐ | Animations play correctly in Play Mode |
 
 **Section Notes:** _______________________________________________
 
