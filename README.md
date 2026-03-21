@@ -1,6 +1,22 @@
 # 🎮 TileMania
 ## CS 4700: Game Design Studio
 
+## 🎮 Play the Game
+
+<p align="center">
+  <a href="../../releases"><strong>👉 Download Latest Build</strong></a>
+</p>
+
+---
+
+### ▶️ How to Run
+
+1. Download the latest release (`TileMania.zip`)
+2. Extract the zip file
+3. Open the folder
+4. Double-click:
+---
+
 Build a complete, challenging 2D platformer — tile worlds, patrol enemies, projectile combat, health systems, and polished game feel — using **Unity 6 + C#**.
 
 ---
