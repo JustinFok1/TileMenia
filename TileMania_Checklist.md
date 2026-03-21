@@ -254,28 +254,23 @@ Answer these in **2–4 sentences each**. These are the same questions you'll re
 
 **1. What was your rapid prototype goal for this project?**
 
-_______________________________________________________________
-_______________________________________________________________
+My goal was to create a basic 2D platformer with core mechanics like movement, jumping, enemies, and level progression. The main objective was to build a complete gameplay loop from start to finish to simulate actual game progression.
 
 **2. How closely did your final game match your original prototype vision? What changed and why?**
 
-_______________________________________________________________
-_______________________________________________________________
+The final game is relatively close to my original vision, but I ended up adding more features than I initially planned. I expanded the project with things like health UI, sound effects, camera follow, and enemy behavior. Although they were a assignment requirement, I was honestly not thinking of implementing them.
 
 **3. What is the most technically challenging thing you implemented? How did you solve it?**
 
-_______________________________________________________________
-_______________________________________________________________
+The most technically challenging thing was setting up the individual scenees themselves. Playing around with all the components and settings is relatively annoying as you need to make sure that you have to have everything correct or it won't work.
 
 **4. If you had one more week, what would you add or change?**
 
-_______________________________________________________________
-_______________________________________________________________
+If I had one more week, I would probably add more variations to the levels with more reskins of enemies and other hazards. It's currently pretty theme-consistent, but making the themes vary may prove to have more user engagment. 
 
 **5. How does your approach to game development now compare to when you started the course?**
 
-_______________________________________________________________
-_______________________________________________________________
+I approach game development more systematically now. I like to build up core mechanics before trying to figure out the small details. So build a strong foundation and add things later to improve it. 
 
 ---
 
