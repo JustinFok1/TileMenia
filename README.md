@@ -14,7 +14,24 @@
 1. Download the latest release (`TileMania.zip`)
 2. Extract the zip file
 3. Open the folder
-4. Double-click:
+4. Double-click: TileMania.exe
+
+
+---
+
+### ⚠️ Windows Warning
+
+If you see a security popup:
+
+- Click **More info**
+- Click **Run anyway**
+
+---
+
+### 💡 Note
+
+- ✅ No Unity required to play  
+- 🛠 Unity is only needed if you want to edit the project  
 ---
 
 Build a complete, challenging 2D platformer — tile worlds, patrol enemies, projectile combat, health systems, and polished game feel — using **Unity 6 + C#**.
