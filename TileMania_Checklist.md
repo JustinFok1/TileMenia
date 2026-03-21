@@ -219,7 +219,7 @@
 
 | ✅ | Difficulty | Feature |
 |:---:|:---:|---|
-| ☐ | 🟢 | Double jump |
+| ✅ | 🟢 | Double jump |
 | ☐ | 🟢 | Animated collectible coins/gems |
 | ☐ | 🟢 | Multiple enemy types (reskins with different speeds) |
 | ☐ | 🟡 | Checkpoint system |
@@ -230,8 +230,8 @@
 | ☐ | 🔴 | Multiple levels (3+) with scene transitions |
 | ☐ | 🔴 | Save system (high score persists between sessions) |
 
-**Extension chosen:** _______________________________________  
-**Brief description of what you added:** _______________________________________
+**Extension chosen:** Double jump  
+**Brief description of what you added:** When player presses space one more time in the air, it allows them to double jump. Able to adjust amount of jumps and uses ground detection to see if player is on ground or not to trigger.
 
 ---
 
