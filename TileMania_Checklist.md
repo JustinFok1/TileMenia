@@ -181,11 +181,11 @@
 
 | ✅ Done | ⚠️ Stuck | Task |
 |:---:|:---:|---|
-| ☐ | ☐ | Background music loops on AudioSource |
-| ☐ | ☐ | Jump SFX plays when player jumps |
-| ☐ | ☐ | Shoot SFX plays when player fires |
-| ☐ | ☐ | Damage SFX plays when player is hit |
-| ☐ | ☐ | At least 1 particle effect (death, hit, collect, etc.) |
+| ✅ | ☐ | Background music loops on AudioSource |
+| ✅ | ☐ | Jump SFX plays when player jumps |
+| ✅ | ☐ | Shoot SFX plays when player fires |
+| ✅ | ☐ | Damage SFX plays when player is hit |
+| ✅ | ☐ | At least 1 particle effect (death, hit, collect, etc.) |
 
 **Section Notes:** _______________________________________________
 
