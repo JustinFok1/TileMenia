@@ -239,12 +239,12 @@
 
 | ✅ | Task |
 |:---:|---|
-| ☐ | Project builds without errors (File → Build Settings → Build And Run) |
-| ☐ | Game is playable from Main Menu to Game Over/Win |
-| ☐ | Submitted GitHub repository link on Canvas |
-| ☐ | Repository is **public** or instructor has been given access |
-| ☐ | All 3 tutorial documents included in repo (`Tutorial.md`, `Checklist.md`, `QuickReference.md`) |
-| ☐ | Completed **Reflection Questions** (below) |
+| ✅ | Project builds without errors (File → Build Settings → Build And Run) |
+| ✅ | Game is playable from Main Menu to Game Over/Win |
+| ✅ | Submitted GitHub repository link on Canvas |
+| ✅ | Repository is **public** or instructor has been given access |
+| ✅ | All 3 tutorial documents included in repo (`Tutorial.md`, `Checklist.md`, `QuickReference.md`) |
+| ✅ | Completed **Reflection Questions** (below) |
 
 ---
 
