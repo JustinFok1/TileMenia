@@ -1,0 +1,104 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+
+public class PlayerHealth : MonoBehaviour
+{
+    // ─── Settings ────────────────────────────────────────────────────────
+    [Header("Health")]
+    [SerializeField] int maxHealth = 3;
+    [SerializeField] float invincibilityDuration = 1.5f;
+
+    [Header("UI")]
+    [SerializeField] Image[] heartImages;      // Array of heart UI images
+    [SerializeField] Sprite fullHeart;
+    [SerializeField] Sprite emptyHeart;
+
+    [Header("Effects")]
+    [SerializeField] GameObject deathParticles;
+
+    // ─── State ───────────────────────────────────────────────────────────
+    int currentHealth;
+    bool isInvincible;
+    float invincibilityTimer;
+
+    PlayerMovement movement;
+    SpriteRenderer spriteRenderer;
+
+    // ─── Lifecycle ───────────────────────────────────────────────────────
+    void Start()
+    {
+        currentHealth = maxHealth;
+        movement = GetComponent<PlayerMovement>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        UpdateHeartUI();
+    }
+
+    void Update()
+    {
+        HandleInvincibility();
+    }
+
+    // ─── Invincibility Flash ─────────────────────────────────────────────
+    void HandleInvincibility()
+    {
+        if (!isInvincible) return;
+
+        invincibilityTimer -= Time.deltaTime;
+        // Flash effect: toggle sprite visibility
+        spriteRenderer.enabled = Mathf.Sin(invincibilityTimer * 20f) > 0;
+
+        if (invincibilityTimer <= 0)
+        {
+            isInvincible = false;
+            spriteRenderer.enabled = true;
+        }
+    }
+
+    // ─── Public API ──────────────────────────────────────────────────────
+    public void TakeDamage(int amount)
+    {
+        if (isInvincible) return;
+
+        currentHealth -= amount;
+        currentHealth = Mathf.Max(0, currentHealth);
+
+        AudioManager.Instance?.PlayHit();
+
+        UpdateHeartUI();
+
+        if (currentHealth <= 0)
+        {
+            Die();
+            return;
+        }
+
+        // Start invincibility window
+        isInvincible = true;
+        invincibilityTimer = invincibilityDuration;
+    }
+
+    void Die()
+    {
+        AudioManager.Instance?.PlayDeath();
+
+        if (deathParticles != null)
+            Instantiate(deathParticles, transform.position, Quaternion.identity);
+
+        movement.OnDeath();
+        Invoke(nameof(GameOver), 1f);  // Wait for death animation
+    }
+
+    void GameOver()
+    {
+        FindFirstObjectByType<GameSession>()?.ProcessPlayerDeath();
+    }
+
+    // ─── UI ──────────────────────────────────────────────────────────────
+    void UpdateHeartUI()
+    {
+        for (int i = 0; i < heartImages.Length; i++)
+        {
+            heartImages[i].sprite = (i < currentHealth) ? fullHeart : emptyHeart;
+        }
+    }
+}
