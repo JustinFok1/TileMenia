@@ -4,7 +4,9 @@
 ## 🎮 Play the Game
 
 <p align="center">
-  <a href="../../releases"><strong>👉 Download Latest Build</strong></a>
+  <a href="../../releases"><strong>👉 Download Latest Build</strong></a><br>
+  <a href="https://github.com/JustinFok1/TileMenia/blob/main/TileManiaDemo.mp4"><strong>👉 Video Demo</strong></a> <br>
+<a href="https://github.com/JustinFok1/TileMenia/blob/main/TileMania%20GDD.pdf"><strong>👉 Game Design Document</strong></a>
 </p>
 
 ---
@@ -33,7 +35,4 @@ If you see a security popup:
 - ✅ No Unity required to play  
 - 🛠 Unity is only needed if you want to edit the project  
 ---
-
-<a href="https://github.com/JustinFok1/TileMenia/blob/main/TileManiaDemo.mp4"><strong>👉 Video Demo</strong></a> <br>
-<a href="https://github.com/JustinFok1/TileMenia/blob/main/TileMania%20GDD.pdf"><strong>👉 Game Design Document</strong></a>
 
