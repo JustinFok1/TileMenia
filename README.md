@@ -34,6 +34,6 @@ If you see a security popup:
 - 🛠 Unity is only needed if you want to edit the project  
 ---
 
-<a href="https://github.com/JustinFok1/TileMenia/blob/main/TileManiaDemo.mp4"><strong>👉 Video Demo</strong></a>
+<a href="https://github.com/JustinFok1/TileMenia/blob/main/TileManiaDemo.mp4"><strong>👉 Video Demo</strong></a> <br>
 <a href="https://github.com/JustinFok1/TileMenia/blob/main/TileMania%20GDD.pdf"><strong>👉 Game Design Document</strong></a>
 
