@@ -230,8 +230,12 @@
 | ☐ | 🔴 | Multiple levels (3+) with scene transitions |
 | ☐ | 🔴 | Save system (high score persists between sessions) |
 
-**Extension chosen:** Double jump  
-**Brief description of what you added:** When player presses space one more time in the air, it allows them to double jump. Able to adjust amount of jumps and uses ground detection to see if player is on ground or not to trigger.
+**Extension chosen:** Double jump, +1 UI on enemy death, conditional level passing (all enemies must die), enemy counter  
+**Brief description of what you added:** 
+-When player presses space one more time in the air, it allows them to double jump. Able to adjust amount of jumps and uses ground detection to see if player is on ground or not to trigger.
+-A +1 UI appears when enemy dies to add visual effects
+-All enemies must die to proceed to next level.
+-Enemy counter which tells player how many enemies, if they need to kill more enemies, and pass conditions.
 
 ---
 
